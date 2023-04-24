@@ -1,0 +1,27 @@
+{
+  "name": "jest-starter",
+  "version": "1.0.0",
+  "description": "Starter project with sample Jest tests",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "cover": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "jest": "25.1.0"
+  },
+  "keywords": [
+    "javascript",
+    "starter",
+    "jest",
+    "test"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
